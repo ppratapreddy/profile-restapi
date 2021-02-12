@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'profile_api'
+    'rest_framework',
+    'rest_framework.authtoken',
+    'profile_api',
 ]
 
 MIDDLEWARE = [
@@ -119,3 +121,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+Auth_User_Model = 'profile_api.UserProfile'
