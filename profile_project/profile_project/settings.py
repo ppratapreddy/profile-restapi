@@ -122,4 +122,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-Auth_User_Model = 'profile_api.UserProfile'
+AUTH_USER_MODEL = 'profile_api.UserProfile'
